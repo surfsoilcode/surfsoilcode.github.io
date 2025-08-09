@@ -1,0 +1,4 @@
+name = "Surf Soil & Code"
+license = "MIT"
+description = "A minimal theme for surfing, permaculture, and coding blogs"
+min_version = "0.80.0"

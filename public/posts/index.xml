@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Surf, Soil &amp; Code</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Surf, Soil &amp; Code</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to Surf, Soil &amp; Code</title>
+      <link>http://localhost:1313/posts/welcome/</link>
+      <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/welcome/</guid>
+      <description>&lt;p&gt;Welcome to &lt;strong&gt;Surf, Soil &amp;amp; Code&lt;/strong&gt; — a place where waves, gardens, and code collide.&lt;br&gt;&#xA;Here you&amp;rsquo;ll find tutorials, stories, and projects spanning surf culture, off-grid living, and open-source development.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

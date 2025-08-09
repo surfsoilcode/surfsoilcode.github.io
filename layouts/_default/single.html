@@ -1,0 +1,10 @@
+{{ define "main" }}
+<article class="card">
+  <h1>{{ .Title }}</h1>
+  <div class="meta">{{ .Date.Format "January 2, 2006" }}</div>
+  {{ .Content }}
+</article>
+<aside class="sidebar">
+  {{ partial "sidebar.html" . }}
+</aside>
+{{ end }}

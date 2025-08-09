@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section class="post-list">
+  {{ range .Paginator.Pages }}
+    <article class="card post-card">
+      <div>
+        {{ with .Params.tags }}
+          <div class="tag">{{ index . 0 }}</div>
+        {{ end }}
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <div class="meta">{{ .Date.Format "January 2, 2006" }}</div>
+        <p class="excerpt">{{ .Summary }}</p>
+      </div>
+    </article>
+  {{ end }}
+</section>
+<aside class="sidebar">
+  {{ partial "sidebar.html" . }}
+</aside>
+{{ end }}

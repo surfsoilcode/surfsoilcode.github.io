@@ -1,0 +1,8 @@
+baseURL = "https://surfsoilcode.github.io/"
+languageCode = "en-us"
+title = "Surf, Soil & Code"
+theme = "surf-soil-code"
+paginate = 10
+
+[params]
+  description = "Surfing, permaculture & creative coding"
