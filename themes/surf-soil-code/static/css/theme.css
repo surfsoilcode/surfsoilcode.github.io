@@ -56,6 +56,14 @@
       box-shadow:0 6px 18px rgba(15,33,24,0.06);
     }
 
+    .card img {
+      max-width: 80%;
+      height: auto;
+      display: block;
+      margin: 0px auto;
+      text-align: center;
+    }
+
     .post-list{display:flex;flex-direction:column;gap:20px}
 
     .post-card{display:grid;grid-template-columns:1fr 160px;gap:18px;align-items:center}
